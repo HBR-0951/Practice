@@ -1,0 +1,60 @@
+html{
+    height:100%;
+}
+
+body{
+    background-image: url("../img/door_close2.jpg");
+    background-position:center;
+    background-size: contain;
+    min-height:100%;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(247, 16, 16, 0.959);
+    position: absolute;
+    right:10px;
+    bottom: 0px;}
+
+h1,h3{
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#key{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#Text{
+    display: flex;
+    justify-content: space-around;
+}
+
+#key img[class = "picture"]{
+    transform: scale(1,1); /* 一開始的比例 */
+    transition:all 0.5s ease 0s;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+
+/* 滑鼠碰到時變化的大小比例 */
+#key img[class = "picture"]:hover{ 
+    transform: scale(1.5,1.5);
+}
+
+#Text p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:white;
+}
+
+h2{
+    text-indent: 2em;
+    color: white;
+}
